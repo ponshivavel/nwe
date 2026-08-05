@@ -140,7 +140,7 @@ Hi, I&apos;m <span className="shimmer-text">{personal.name}</span>
               className="absolute inset-4 overflow-hidden rounded-full glass-card shadow-glow"
             >
 <img
-                src="/images/ponshivavelproff.png"
+src={`${import.meta.env.BASE_URL}images/ponshivavelproff.png`}
                 alt="Profile"
                 className="h-full w-full object-cover"
                 loading="eager"

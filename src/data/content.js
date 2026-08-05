@@ -28,7 +28,7 @@ export const personal = {
   leetcode: 'https://leetcode.com/u/ponshivavel/',
   githubUsername: 'ponshivavel',
   leetcodeUsername: 'ponshivavel-sk',
-resumeUrl: '/resume.pdf',
+resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
 }
 
 export const roles = [
@@ -116,7 +116,7 @@ export const projects = [
     title: 'InsurAI Management System',
     description:
       'An AI-powered insurance management platform that automates claim processing, risk assessment, and customer onboarding using machine learning models and a full-stack Java + React architecture.',
-image: "/images/insurai.png",
+image: `${import.meta.env.BASE_URL}images/insurai.png`,
     tech: ['Java', 'Spring Boot', 'React', 'MySQL', 'Python', 'Scikit-learn'],
     features: [
       'AI-driven claim triage with 92% accuracy',
@@ -131,7 +131,7 @@ image: "/images/insurai.png",
     title: 'Social Media Trend Analysis',
     description:
       'A data science project that analyzes social media sentiment and trending topics in real time using NLP, producing interactive visualizations and forecasting models for brand intelligence.',
-image: "/images/trends.png",    tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Streamlit'],
+image: `${import.meta.env.BASE_URL}images/trends.png`,    tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Streamlit'],
     features: [
       'Real-time sentiment analysis with NLP',
       'Trend forecasting using time-series models',
@@ -145,7 +145,7 @@ image: "/images/trends.png",    tech: ['Python', 'Pandas', 'NumPy', 'Scikit-lear
     title: 'Heart Disease Prediction System',
     description:
       'Developed an AI-powered heart disease prediction system using Machine Learning. The model predicts the likelihood of heart disease based on patient health parameters',
-    image: "/images/heart-disease.png",    tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Streamlit'],
+image: `${import.meta.env.BASE_URL}images/heart-disease.png`,    tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Streamlit'],
     features: [
       'Real-time sentiment analysis with NLP',
       'Trend forecasting using time-series models',
