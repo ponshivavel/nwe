@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 import { FiMail, FiPhone, FiMapPin, FiSend } from 'react-icons/fi'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { SiLeetcode } from 'react-icons/si'
 import ScrollReveal from '../components/ScrollReveal'
 import SectionHeading from '../components/SectionHeading'
 import { personal } from '../data/content'
@@ -60,3 +59,4 @@ export default function Contact() {
     </section>
   )
 }
+

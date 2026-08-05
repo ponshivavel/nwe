@@ -64,7 +64,7 @@ export default function Hero() {
           </motion.span>
 
           <h1 className="font-display text-4xl font-bold leading-tight sm:text-6xl lg:text-7xl">
-            Hi, I'm <span className="shimmer-text">{personal.name}</span>
+Hi, I&apos;m <span className="shimmer-text">{personal.name}</span>
           </h1>
 
           <div className="flex items-center gap-2 font-mono text-lg text-[var(--text-soft)] sm:text-2xl">

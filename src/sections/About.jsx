@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion'
 import { FiTarget, FiUser } from 'react-icons/fi'
 import ScrollReveal from '../components/ScrollReveal'
 import SectionHeading from '../components/SectionHeading'

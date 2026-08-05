@@ -18,7 +18,7 @@ export default function NotFound() {
         transition={{ delay: 0.2 }}
         className="text-lg text-[var(--text-soft)]"
       >
-        Oops! The page you're looking for doesn't exist.
+Oops! The page you&apos;re looking for doesn&apos;t exist.
       </motion.p>
       <Link to="/" className="btn-primary">
         <FiHome /> Back Home
