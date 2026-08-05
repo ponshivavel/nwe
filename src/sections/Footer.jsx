@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaHeart } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiLeetcode } from 'react-icons/si'
 import { FiArrowUp } from 'react-icons/fi'
 import { personal } from '../data/content'
@@ -7,9 +7,9 @@ export default function Footer() {
   return (
     <footer className="section-pad relative border-t border-[var(--border)] py-10">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 sm:flex-row">
-        <div className="flex flex-col items-center gap-1 sm:items-start">
-          <span className="font-display text-lg font-bold heading-gradient"></span>
-         
+<div className="flex flex-col items-center gap-1 sm:items-start">
+          <span className="font-display text-lg font-bold heading-gradient">PONSHIVAVEL</span>
+          <span className="text-xs text-[var(--text-soft)]">Java Full Stack Developer</span>
         </div>
 
         <div className="flex items-center gap-3">

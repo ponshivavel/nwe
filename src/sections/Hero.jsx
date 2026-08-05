@@ -82,7 +82,7 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
-            <a href={personal.resumeUrl} download className="btn-primary">
+<a href={personal.resumeUrl} className="btn-primary">
               <FaDownload /> Download Resume
             </a>
             <button
@@ -139,8 +139,8 @@ export default function Hero() {
               transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
               className="absolute inset-4 overflow-hidden rounded-full glass-card shadow-glow"
             >
-              <img
-                src="ponshivavelproff.png"
+<img
+                src="/images/ponshivavelproff.png"
                 alt="Profile"
                 className="h-full w-full object-cover"
                 loading="eager"

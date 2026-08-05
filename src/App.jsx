@@ -70,7 +70,7 @@ export default function App() {
   }, [])
 
   return (
-    <BrowserRouter>
+<BrowserRouter basename="/nwe">
       <AnimatePresence>
         {loading && <LoadingScreen key="loader" />}
       </AnimatePresence>

@@ -41,7 +41,7 @@ export default function Navbar({ theme, toggleTheme }) {
           onClick={() => go('home')}
           className="font-display text-lg font-bold heading-gradient"
         >
-          
+          PONSHIVAVEL
         </button>
 
         <ul className="hidden items-center gap-1 lg:flex">
