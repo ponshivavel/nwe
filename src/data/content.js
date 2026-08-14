@@ -87,7 +87,7 @@ export const experience = [
 role: 'Java Full Stack Intern',
     company: 'Infosys',
     period: 'Oct 2025 - Dec 2025',
-    location: 'Chennai, India',
+    location: 'Remote',
     points: [
       'Built RESTful microservices using Spring Boot and Java, integrated with React frontends for internal tooling.',
       'Designed and optimized MySQL schemas, reducing query latency by 35% across reporting dashboards.',
