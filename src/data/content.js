@@ -17,7 +17,7 @@ import {
 import { DiJava, DiCss3Full, DiVisualstudio } from 'react-icons/di'
 
 export const personal = {
-  name: 'PONSHIVAVEL  S K',
+  name: 'PONSHIVAVEL S K',
   role: 'Java Full Stack Developer',
   tagline: 'I craft scalable web applications and intelligent data-driven solutions.',
   email: 'ponshivavelsk@gmail.com',
@@ -28,7 +28,7 @@ export const personal = {
   leetcode: 'https://leetcode.com/u/ponshivavel/',
   githubUsername: 'ponshivavel',
   leetcodeUsername: 'ponshivavel-sk',
-resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
 }
 
 export const roles = [
@@ -41,24 +41,22 @@ export const roles = [
 
 export const about = {
   summary:
-  "Passionate Java Full Stack Developer and Data Science enthusiast with a strong foundation in Java, React, Python, MySQL, and Machine Learning. Experienced in building responsive web applications, developing scalable backend systems, and creating data-driven solutions. Eager to learn new technologies, solve real-world problems, and deliver efficient, user-focused software.",
-
-objective:
-  "To secure a Software Engineer or Java Full Stack Developer role in a growth-oriented organization where I can apply my technical skills, contribute to innovative software solutions, continuously enhance my knowledge, and grow as a professional while creating meaningful impact.",
+    'Passionate Java Full Stack Developer and Data Science enthusiast with a strong foundation in Java, React, Python, MySQL, and Machine Learning. Experienced in building responsive web applications, developing scalable backend systems, and creating data-driven solutions. Eager to learn new technologies, solve real-world problems, and deliver efficient, user-focused software.',
+  objective:
+    'To secure a Software Engineer or Java Full Stack Developer role in a growth-oriented organization where I can apply my technical skills, contribute to innovative software solutions, continuously enhance my knowledge, and grow as a professional while creating meaningful impact.',
   education: [
     {
       degree: 'B.Tech Artificial Intelligence And Data Science',
-      institution: ' V.S.B Engineering College ,Karur',
+      institution: 'V.S.B Engineering College, Karur',
       period: '2023 — 2027',
       detail: 'Currently pursuing with a CGPA of 8.5+ and active in AI/ML research projects.',
     },
     {
-      degree: 'Higher Secondary ',
+      degree: 'Higher Secondary',
       institution: 'S.S.V Matric Higher Secondary School',
       period: '2022 — 2023',
       detail: 'Completed with distinction in Computer Science stream.',
     },
-   
   ],
 }
 
@@ -84,7 +82,7 @@ export const skills = [
 
 export const experience = [
   {
-role: 'Java Full Stack Intern',
+    role: 'Java Full Stack Intern',
     company: 'Infosys',
     period: 'Oct 2025 - Dec 2025',
     location: 'Remote',
@@ -97,7 +95,7 @@ role: 'Java Full Stack Intern',
     tech: ['Java', 'Spring Boot', 'React', 'MySQL', 'Git'],
   },
   {
-role: 'Data Science Intern',
+    role: 'Data Science Intern',
     company: 'SmartED',
     period: 'Jan 2025 — Mar 2025',
     location: 'Remote',
@@ -116,7 +114,7 @@ export const projects = [
     title: 'InsurAI Management System',
     description:
       'An AI-powered insurance management platform that automates claim processing, risk assessment, and customer onboarding using machine learning models and a full-stack Java + React architecture.',
-image: `${import.meta.env.BASE_URL}images/insurai.png`,
+    image: `${import.meta.env.BASE_URL}images/insurai.png`,
     tech: ['Java', 'Spring Boot', 'React', 'MySQL', 'Python', 'Scikit-learn'],
     features: [
       'AI-driven claim triage with 92% accuracy',
@@ -125,13 +123,13 @@ image: `${import.meta.env.BASE_URL}images/insurai.png`,
       'Real-time analytics & reporting',
     ],
     github: 'https://github.com/ponshivavel/InsurAI',
-    
   },
   {
     title: 'Social Media Trend Analysis',
     description:
       'A data science project that analyzes social media sentiment and trending topics in real time using NLP, producing interactive visualizations and forecasting models for brand intelligence.',
-image: `${import.meta.env.BASE_URL}images/trends.png`,    tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Streamlit'],
+    image: `${import.meta.env.BASE_URL}images/trends.png`,
+    tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Streamlit'],
     features: [
       'Real-time sentiment analysis with NLP',
       'Trend forecasting using time-series models',
@@ -141,21 +139,20 @@ image: `${import.meta.env.BASE_URL}images/trends.png`,    tech: ['Python', 'Pand
     github: 'https://github.com/ponshivavel/pyspark',
     demo: 'https://trends.demo.example',
   },
-{
+  {
     title: 'Heart Disease Prediction System',
     description:
-      'Developed an AI-powered heart disease prediction system using Machine Learning. The model predicts the likelihood of heart disease based on patient health parameters',
-image: `${import.meta.env.BASE_URL}images/heart-disease.png`,    tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Streamlit'],
+      'Developed an AI-powered heart disease prediction system using Machine Learning. The model predicts the likelihood of heart disease based on patient health parameters.',
+    image: `${import.meta.env.BASE_URL}images/heart-disease.png`,
+    tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Streamlit'],
     features: [
-      'Real-time sentiment analysis with NLP',
-      'Trend forecasting using time-series models',
-      'Interactive Streamlit dashboards',
-      'Automated topic clustering',
+      'Random Forest classification architecture',
+      'Patient health parameter input interface',
+      'Real-time risk evaluation and reporting',
+      'Interactive Streamlit web application',
     ],
     github: 'https://github.com/ponshivavel/Heart-Disease-Prediction-Using-Random-Forest/tree/main',
-    demo: 'https://trends.demo.example',
   },
-  
 ]
 
 export const certifications = [
@@ -183,9 +180,8 @@ export const certifications = [
     year: '2026',
     credentialId: 'HR-SQL-2026',
   },
-
   {
-    title: 'Developing Code Features Using GitHub Copilotn',
+    title: 'Developing Code Features Using GitHub Copilot',
     issuer: 'Microsoft Learn',
     year: '2024',
     credentialId: 'MS-CO-PILOT-2024',
@@ -196,7 +192,6 @@ export const certifications = [
     year: '2026',
     credentialId: 'AWS-CPF-2026',
   },
-  
 ]
 
 export const achievements = [
@@ -218,7 +213,6 @@ export const achievements = [
       'Solved 200+ DSA problems on LeetCode, strengthening algorithmic and problem-solving skills.',
     icon: 'code',
   },
- 
 ]
 
 export const navLinks = [
